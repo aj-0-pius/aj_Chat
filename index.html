@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>aj_Chatbot || aj_0_pius</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="chat-container">
+    <div class="chat-header">
+    <img src="chatbot-logo.svg" alt="Chatbot Logo" class="chatbot-logo" width="24" height="24" />
+    aj_Chat
+      <br>
+      <button id="theme-toggle" title="Toggle Dark Mode">🌙</button>
+    </div>
+    <div class="chat-body" id="chat-body"></div>
+    <div class="chat-footer">
+      <label for="file-input" title="Attach a file">
+        <i class="fas fa-paperclip"></i>
+        <input type="file" id="file-input" accept="image/*" />
+      </label>
+      <button id="voice-btn" title="Voice input"><i class="fas fa-microphone"></i></button>
+      <input type="text" id="user-input" placeholder="Type a message..." autocomplete="on" />
+      <button id="send-btn" title="Send message"><i class="fas fa-paper-plane"></i></button>
+    </div>
+
+    <div class="chat-credit" title="Visionary Minhajul Abadin Pius">
+      Visionary <strong>Minhajul Abadin Pius</strong>
+    </div>
+  </div>
+
+  <div id="confetti"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
