@@ -38,7 +38,7 @@ body {
   align-items: flex-end;
   gap: 1px; /* Reduced gap */
 }
-@medi (max-width: 480px) {
+@media (max-width: 480px) {
   .chat-container {
     max-width: 100%;
   }
