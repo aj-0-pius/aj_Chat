@@ -38,6 +38,11 @@ body {
   align-items: flex-end;
   gap: 1px; /* Reduced gap */
 }
+@media (max-width: 480px) {
+  .chat-container {
+    max-width: 100vw;
+  }
+}
 
 .chat-header .chatbot-logo {
   width: 32px;
