@@ -17,7 +17,7 @@ body {
 .chat-container {
   background: white;
   width: 100%;
-  max-width: 440px;
+  max-width: 100%;
   height: 680px;
   border-radius: 18px;
   box-shadow: 0 15px 30px rgba(0, 0, 0, 0.25);
@@ -37,11 +37,6 @@ body {
   display: flex;
   align-items: flex-end;
   gap: 1px; /* Reduced gap */
-}
-@media (max-width: 480px) {
-  .chat-container {
-    max-width: 100%;
-  }
 }
 
 .chat-header .chatbot-logo {
