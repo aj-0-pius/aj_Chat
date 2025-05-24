@@ -40,7 +40,7 @@ body {
 }
 @media (max-width: 480px) {
   .chat-container {
-    max-width: 100vw;
+    max-width: 100%;
   }
 }
 
